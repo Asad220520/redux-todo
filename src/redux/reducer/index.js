@@ -13,7 +13,6 @@ export const todoReducer = (state = initialState, action) => {
               ? state.todo[state.todo.length - 1].id + 1
               : 1,
             title: action.payload,
-            img: action.payload,
           },
         ],
       };
